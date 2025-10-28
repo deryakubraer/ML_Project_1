@@ -32,8 +32,6 @@ The model can help music platforms, artists, and record labels understand what d
 - Checked **feature relationships** via correlation heatmaps and scatter plots  
 - Verified data quality (duplicates, missing values)  
 
-**Example: Correlation Heatmap**  
-![correlation_heatmap](images/correlation_heatmap.png)
 
 ---
 
@@ -44,8 +42,7 @@ The model can help music platforms, artists, and record labels understand what d
 - **Train-test split:** 80/20 split  
 - Saved processed datasets using `pickle`  
 
-**Example: Feature Distribution after Scaling**  
-![feature_distribution](images/feature_distribution.png)
+
 
 ---
 
@@ -62,8 +59,7 @@ The model can help music platforms, artists, and record labels understand what d
 
 **Metrics Used:** R², MAE, MSE, RMSE  
 
-**Example: R² Scores Across Models**  
-![r2_scores](images/r2_scores.png)
+
 
 ---
 
@@ -87,7 +83,7 @@ Random Forest (robust-scaled): R² ↑ 0.709 → 0.718, RMSE ↓ 9.81 → 9.66
 
 XGBoost (standard-scaled): R² ↑ 0.707 → 0.715, RMSE ↓ 9.84 → 9.71
 
-Example: RMSE Before vs After Tuning
+
 
 
 ## Feature Importance
@@ -112,7 +108,7 @@ Top 10 features contribute ~68.3% of importance
 
 Genre is the most predictive factor for track popularity
 
-Example: Top 10 Feature Importances
+
 
 
 ## Results Summary
